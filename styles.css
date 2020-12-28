@@ -269,6 +269,15 @@ footer a:visited {
   font-size: 14pt;
   font-weight: 300;
 }
+.design-container h3 {
+  font-family: 'Assistant', sans-serif;
+  font-size: 26pt;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: black;
+  margin: 0px;
+  text-align: center;
+}
 .design article {
   margin-top: 50px;
   margin-left: 30px;
