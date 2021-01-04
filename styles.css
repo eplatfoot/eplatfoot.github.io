@@ -1,3 +1,9 @@
+:root {
+  --accent-color: #c6ae59;
+  --smartlogbook-color: #2196f3;
+  --auction-color: #a46f20;
+  --santa-color: #df0238;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -5,7 +11,7 @@ body {
   margin: 0px;
   font-family: serif;
   font-size: 16pt;
-  background-color: black;
+  background-color: #222222;
   color: white;
 }
 .content {
@@ -35,7 +41,7 @@ header #logo {
 }
 header #logo-name {
   flex-grow: 1;
-  color: #c6ae59;
+  color: var(--accent-color);
   font-family: 'Assistant', sans-serif;
   font-weight: 600;
   font-size: 12pt;
@@ -65,11 +71,11 @@ header #linkedin {
   margin-top: 150px;
   margin-bottom: 0px;
 }
-#erin #intro {
+#erin #hello {
   font-family: 'Lora', serif;
   font-weight: 400;
   font-size: 36pt;
-  color: #c6ae59;
+  color: var(--accent-color);
   margin: 10px 0;
   font-style: italic;
 }
@@ -138,24 +144,24 @@ header #linkedin {
   margin-top: 175px;
 }
 #smartlogbook .project-text {
-  border-color: #2196f3;
+  border-color: var(--smartlogbook-color);
 }
 #smartlogbook .project-preview {
   top: 5%;
   left: 70%;
 }
 #smartlogbook .project-link {
-  background-color: #2196f3;
+  background-color: var(--smartlogbook-color);
 }
 #auction .project-preview {
   top: 10px;
   left: 45%;
 }
 #auction .project-text {
-  border-color: #a46f20;
+  border-color: var(--auction-color);
 }
 #auction .project-link {
-  background-color: #a46f20;
+  background-color: var(--auction-color);
 }
 #auction .project-bg {
   opacity: 1.0;
@@ -165,13 +171,13 @@ header #linkedin {
   left: 62%;
 }
 #santa .project-text {
-  border-color: red;
+  border-color: var(--santa-color);
 }
 #santa .project-link {
-  background-color: red;
+  background-color: var(--santa-color);
 }
 #footer-container {
-  background-color: #c6ae59;
+  background-color: var(--accent-color);
 }
 footer {
   padding: 25px;
@@ -185,7 +191,6 @@ footer a:visited {
   color: black;
 }
 #hero-container {
-  background-image: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("smartlogbook-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -216,18 +221,7 @@ footer a:visited {
   text-shadow: 1px 1px 2px #000000;
   margin: 0px;
 }
-#smartlogbook-hero-flight-screen {
-  position: absolute;
-  top: 120px;
-  left: 55%;
-}
-#smartlogbook-hero-aircraft-screen {
-  position: absolute;
-  top: 120px;
-  left: 75%;
-}
-.smartlogbook-intro {
-  background-color: #2196f3;
+#intro {
   padding-bottom: 50px;
 }
 .intro-section {
@@ -278,11 +272,6 @@ footer a:visited {
   margin: 0px;
   text-align: center;
 }
-.design article {
-  margin-top: 50px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
 .design article li {
   margin-bottom: 10px;
 }
@@ -292,4 +281,66 @@ footer a:visited {
 }
 .design article ol ul {
   margin-top: 10px;
+}
+.smartlogbook #hero-container {
+  background-image: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("smartlogbook-background.jpg");
+}
+#smartlogbook-hero-flight-screen {
+  position: absolute;
+  top: 120px;
+  left: 55%;
+}
+#smartlogbook-hero-aircraft-screen {
+  position: absolute;
+  top: 120px;
+  left: 75%;
+}
+.smartlogbook #intro {
+  background-color: var(--smartlogbook-color);
+}
+.smartlogbook .design article {
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.auction #hero-container {
+  background-image: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("auction-background.jpg");
+}
+#auction-hero-preview {
+  position: absolute;
+  top: 140px;
+  left: 55%;
+  border: 1px solid white;
+}
+.auction #intro {
+  background-color: var(--auction-color);
+}
+.auction .design article {
+  margin-left: 80px;
+  margin-right: 30px;
+}
+.auction .design article p {
+  margin-top: 0px;
+}
+.santa #hero-container {
+  background-image: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("santa-background.jpg");
+}
+#santa-hero-preview {
+  position: absolute;
+  top: 140px;
+  left: 65%;
+  border: 1px solid white;
+}
+.santa #intro {
+  background-color: var(--santa-color);
+}
+.santa .design img {
+  border: 1px solid black;
+}
+.santa .design article {
+  margin-left: 80px;
+  margin-right: 30px;
+}
+.santa .design article p {
+  margin-top: 0px;
 }
