@@ -252,24 +252,74 @@ footer a:visited {
 }
 .design-container {
   background: white;
+  color: black;
+  font-family: 'Assistant', sans-serif;
+  font-size: 14pt;
+  font-weight: 300;
 }
 .design {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: start;
-  color: black;
-  font-family: 'Assistant', sans-serif;
-  font-size: 14pt;
-  font-weight: 300;
 }
 .design-container h3 {
   font-family: 'Assistant', sans-serif;
   font-size: 26pt;
   font-weight: 700;
   letter-spacing: 1px;
-  color: black;
   margin: 0px;
+  text-align: center;
+}
+.design-container h4 {
+  font-family: 'Assistant', sans-serif;
+  font-size: 18pt;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.design-intro {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.design .problem {
+  flex-basis: 20%;
+  flex-grow: 1;
+}
+.design .resolution {
+  flex-basis: 20%;
+  flex-grow: 1;
+}
+.design .problem p, .design .resolution p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.before-after {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.before-after>* {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.before-after-arrow {
+  font-family: 'Assistant', sans-serif;
+  font-size: 72pt;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: lightgray;
+}
+.before-after figcaption {
+  font-family: 'Assistant', sans-serif;
+  font-size: 12pt;
+  font-weight: 300;
+  font-style: italic;
   text-align: center;
 }
 .design article li {

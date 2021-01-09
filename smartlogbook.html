@@ -42,29 +42,54 @@
 
     <div class="intro-section content">
       <h3>Goal</h3>
-      <p>The app used Holo, the previous design language. It needed to be updated using the current Android Visual Design requirements.
-        There were also usability issues that needed to be addressed.</p>
+      <p>Resolve usability issues that pilots had identified while using the app, update the design from Holo to the current
+        Material Design language, and make general style improvements.</p>
     </div>
 
     <div class="intro-section content">
       <h3>My Contribution</h3>
-      <p>I created mock designs using Adobe XD. I applied the current requirements using the Android Material Design website.</p>
+      <p>I worked with the developer to understand the functionality of the screens and the needs of the pilots.
+        I created revised mockup screens using Adobe XD.</p>
     </div>
   </div>
 
   <div class="design-container" style="padding-top: 80px;">
-    <h3>Flight Screen</h3>
-    <div class="design content">
-      <img src="smartlogbook-flight-old.png" width="194" height="400"/>
-      <img src="smartlogbook-flight-preview.png" width="195" height="400"/>
+    <div class="content">
+      <h3>Flight Editor Redesign</h3>
+      <p class="design-intro">The <strong>Flight Editor</strong> is where the pilots log information about their flights.<br/>
+        This is the most important and frequently used screen in the app.</p>
+      <div class="design">
+        <div class="problem">
+          <h4>Problem</h4>
+          <p>Pilots were not filling out all of the fields, and some pilots were requesting new functionality that already existed
+            in this screen. The previous version's design looked cluttered, the Holo style buttons and the icons made the screen look busy,
+            it is outdated and doesn’t and there wasn't a clear path for entering in the information.</p>
+        </div>
+        <div class="before-after">
+          <figure>
+            <img src="smartlogbook-flight-old.png" width="194" height="400"/>
+            <figcaption>Before</figcaption>
+          </figure>
+          <p class="before-after-arrow">➞</p>
+          <figure>
+            <img src="smartlogbook-flight-preview.png" width="195" height="400"/>
+            <figcaption>After</figcaption>
+          </figure>
+        </div>  
+        <div class="resolution">
+          <h4>Resolution</h4>
+          <p>I created distinct sections with a consistent layout will make it easier for the user to navigate the screen.
+            Detailed updates are shown in the annotated screens below.</p>
+        </div>
+      </div>
     </div>
   </div>
 
   <div class="design-container" style="padding-top: 100px;">
+    <h3>New Flight Editor</h3>
     <div class="design content">
       <img src="smartlogbook-flight.png" width="503" height="800"/>
       <article>
-        <p>The <strong>Flight screen</strong> is where the pilot records information about each flight.</p>
         <p>The Google Calendar App provided inspiration for the appearance of this screen.
           The app has clickable text and is divided into sections with lines. There are left
           aligned icons for the user to be able to quickly identify each section.</p>
@@ -73,48 +98,89 @@
           <li>
             I grouped the information into sections, aligning the icons on the far left,
             followed by the clickable text buttons, and the information the user inputs is
-            right-aligned. I used lines to divide the content.
+            right-aligned. I used lines to separate the information.
           </li>
           <li>
             Each section has an icon to represent the type of information being displayed.
-            This will grab the attention of the pilot so they can quickly scan the screen. 
+            This will draw the attention of the pilot so they can quickly scan the screen. 
           </li>
           <li>
-            The gray, clickable text is a button that is left aligned and allows the user to either input content with a dialog, brings them to a secondary screen to make a selection, or allows them to . After the information is entered or selected, it appears on the right side of the screen in black. In the previous version, the information was mostly left justified but it had multiple actions in each row.  The buttons, icons, and actions made it difficult to quickly scan and process the screen.
+            The gray, clickable text is a button that is left aligned and allows the user to
+            either input content with a dialog, brings them to a secondary screen to make a
+            selection, or allows them to edit the field in place. After the information is
+            entered or selected, it appears on the right side of the screen in black. In the
+            previous version, the information was mostly left justified but it had multiple
+            actions in each row.  The buttons, icons, and actions made it difficult to quickly
+            scan and process the screen.
           </li>
           <li>
-            The Duration screen includes a bright blue Add button. This allows the pilot to add additional fields to this section.  Even though the previous version had an + Add duration  button it blended in with the rest of the screen and pilots occasionally couldn’t find the button or didn’t realize it was clickable.
+            The Duration screen includes a bright blue Add button. This allows the pilot to add
+            additional fields to this section.  Even though the previous version had an <em>+ Add
+            duration</em> button it blended in with the rest of the screen and pilots occasionally
+            couldn’t find the button or didn’t realize it was clickable.
           </li>
         </ol>
       </article>
     </div>
   </div>
 
-  <div class="design-container">
-    <div class="design content" style="padding-top: 100px;">
-      <article>
-        <p>The <strong>Aircraft screen</strong> tracks the planes the pilots fly.</p>
+  <div class="design-container" style="padding-top: 100px;">
+    <div class="content">
+      <h3>Aircraft List Redesign</h3>
+      <p class="design-intro">The <strong>Aircraft List</strong> is where pilots can see all of the aircraft they've flown.</p>
+      <div class="design">
+        <div class="problem">
+          <h4>Problem</h4>
+          <p>Pilots were not filling out all of the fields, and some pilots were requesting new functionality that already existed in this screen.
+            The previous version's design looked cluttered, the Holo style buttons and the icons made the screen look busy, it is outdated and doesn’t
+            and there wasn't a clear path for entering in the information.</p>
+        </div>
+        <div class="before-after">
+          <figure>
+            <img src="smartlogbook-aircraft-old.png" width="194" height="400"/>
+            <figcaption>Before</figcaption>
+          </figure>
+          <p class="before-after-arrow">➞</p>
+          <figure>
+            <img src="smartlogbook-aircraft-preview.png" width="195" height="400"/>
+            <figcaption>After</figcaption>
+          </figure>
+        </div>  
+        <div class="resolution">
+          <h4>Resolution</h4>
+          <p>I created distinct sections with a consistent layout will make it easier for the user to navigate the screen. Detailed updates are shown
+            in the annotated screens below.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="design-container" style="padding-top: 100px;">
+    <h3>New Aircraft List</h3>
+    <div class="design content">
+      <article>
         <ol>
           <li>
-            I modified the App bar replacing outdated icons with commonly used action and navigation icons. 
+            I modified the App Bar, replacing outdated icons with standard action and navigation icons. 
           </li>
           <li>
-            I included an option for pilots to have the ability to add photos of their airplane to their
-            aircraft list.  Having an image there will make it easier to quickly identify the aircraft in the
+            I included an option for pilots to see photos of their aircraft in the list.
+            Having an image makes it easier to quickly identify the aircraft in the
             list.  It also looks more visually appealing.
           </li>
           <li>
-            The Material Design website has very specific style guidelines for the lists.
+            The Material Design website has very specific specification guidelines for the lists.
+            I created the two lines list with a large rectangular image. These are the requirements
+            I had to follow:
             <ul>
               <li>
                 The image size is 100x56 dp.
               </li>
               <li>
-                The spacing also adheres to the specifications identified in the website. 
+                The spacing adheres to the specifications identified in the website. 
               </li>
               <li>
-                I used the recommended font and size.
+                I used the recommended font, size, and color for the text (aircraft registration and type).
               </li>
             </ul>
           </li>
@@ -124,12 +190,12 @@
             the user to reach.
           </li>
           <li>
-            I added the screen’s title (“Aircraft”) to the App bar to be consistent with the flow of other windows.
+            I added the screen’s title <em>Aircraft</em> to the App bar to be consistent with other screens.
           </li>
           <li>
-            I replaced the back button with the Android Visual Design back button. It is bigger and has a larger
+            I replaced the back button with the Material Design back button. It is bigger and has a larger
             surface area for tapping. The previous version’s button was too small and the placement was too close
-            to the edge of the screen. This made it difficult for the user to accurately tap. 
+            to the edge of the screen. This made it difficult for the user to accurately tap.
           </li>
         </ol>
       </article>
@@ -142,11 +208,12 @@
       <article>
         <ol start="7">
           <li>
-            The user has the ability to sort their flights by registration (alphabetical) or date last flown.
-            The Sort button is available in the Overflow menu.  Displaying this information was challenging because
-            there are only two options.  I first considered using a menu with radio buttons so the user would know
-            which option was already selected.  However, this method was no longer supported in Material Design.
-            I made a mockup of a drop down menu, disabling the ability to select the option that was already selected
+            The user has the ability to sort their flights by registration (alphabetically) or date last flown.
+            The Sort button is available in the <em>⋮ overflow menu</em>.  Displaying this information was challenging because
+            there are only two options to select. I wanted the user to see which option they had selected and only be able
+            to change the selection to the other option.  I first considered using a menu with radio buttons so the user would know
+            which option was selected.  However, this method was no longer supported in Material Design.
+            I made a mockup of a drop down menu, disabling the option that was already selected
             and I grayed it out.  That menu didn’t flow well, and I believe it would be confusing to the users. I
             decided instead to create a bottom sheet. This option made it possible to indicate which selection was
             enabled by showing a checkmark next to the text.
