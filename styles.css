@@ -292,8 +292,7 @@ footer a:visited {
   flex-grow: 1;
 }
 .design .problem p, .design .resolution p {
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: left;
 }
 .before-after {
   display: flex;
